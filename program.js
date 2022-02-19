@@ -4,7 +4,7 @@ function main(n) {
   let dau = n;
     let res = "";
     if(n <= 1){
-        return 0;
+        console.log(0);
     }      
     let point = 1;
     let i = 2;
@@ -35,7 +35,7 @@ function main(n) {
             i++;
         }
     }  
-   return res; 
+   console.log(res);
 }
-console.log(main());
+
 module.exports = main;

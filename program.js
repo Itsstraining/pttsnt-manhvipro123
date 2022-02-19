@@ -37,5 +37,5 @@ function main(n) {
     }  
    return res; 
 }
-console.log(main(900));
+console.log(main());
 module.exports = main;
